@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#2196F3</item>
+        <item name="android:colorPrimaryDark">#1976D2</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:colorAccent">#607D8B</item>
+        <item name="android:textColorPrimary">#212121</item>
+        <item name="android:textColorSecondary">#1976D2</item>
+        <item name="android:divider">#1976D2</item>
+    </style>
+</resources>

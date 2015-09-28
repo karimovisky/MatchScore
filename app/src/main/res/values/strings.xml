@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MatchScore</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="description">Match Score Offers you the fastest soccer livescore and results service.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_list">ListActivity</string>
+</resources>

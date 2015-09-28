@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="race.main.com.matchscore.Home"
+    android:background="#ffffffff">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/todayBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Today"/>
+
+        <Button
+            android:id="@+id/nextWeekBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Week"
+            android:layout_below="@+id/todayBtn"/>
+
+        <Button
+            android:id="@+id/nextMonthBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Month"
+            android:layout_below="@+id/nextWeekBtn"/>
+
+        <Button
+            android:id="@+id/yesterdayBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yesterday"
+            android:layout_below="@+id/nextMonthBtn"/>
+
+        <Button
+            android:id="@+id/lstWeekBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:layout_below="@id/yesterdayBtn"/>
+
+        <Button
+            android:id="@+id/lstMnthBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Month"
+            android:layout_below="@+id/lstWeekBtn"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
